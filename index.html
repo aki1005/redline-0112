@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff8f1" />
+    <title>星屿咖啡厅 · 活动指南</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-glow page-glow--one" aria-hidden="true"></div>
+    <div class="page-glow page-glow--two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首页">
+        <span class="brand-cup" aria-hidden="true">☕</span>
+        <span>星屿咖啡厅</span>
+      </a>
+      <nav class="site-nav" aria-label="页面导航">
+        <a href="#info">基本信息</a>
+        <a href="#batches">入场批次</a>
+        <a class="nav-coming" href="#goods">商品周边 <span>敬请期待</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> OFFLINE CAFE EVENT · 2024</p>
+          <h1>把心动，<br /><em>泡进一杯咖啡里。</em></h1>
+          <p class="hero-lede">一场关于甜点、音乐和相遇的线下动漫咖啡厅活动。<br />欢迎来到属于你的梦幻小岛。</p>
+          <a class="primary-button" href="#info">开始探索 <span>↓</span></a>
+        </div>
+        <div class="hero-art" aria-label="原创咖啡杯插画" role="img">
+          <span class="spark spark--one">✦</span>
+          <span class="spark spark--two">✧</span>
+          <span class="cloud cloud--one"></span>
+          <span class="cloud cloud--two"></span>
+          <div class="sun-disc"></div>
+          <div class="cup-illustration">
+            <div class="cup-steam"><i></i><i></i></div>
+            <div class="cup">
+              <span class="cup-latte">✦</span>
+              <span class="cup-heart">♡</span>
+            </div>
+            <div class="cup-handle"></div>
+            <div class="saucer"></div>
+          </div>
+          <span class="paw paw--one">🐾</span>
+          <span class="paw paw--two">🐾</span>
+        </div>
+      </section>
+
+      <section class="section reveal" id="info">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ABOUT THE CAFE</p>
+            <h2>先把目的地记好</h2>
+          </div>
+          <p class="section-note">活动当天的小贴士，<br />都整理在这里啦。</p>
+        </div>
+        <div class="info-grid">
+          <article class="info-card info-card--address">
+            <div class="card-icon">⌂</div>
+            <p class="card-label">活动地址</p>
+            <h3>星屿咖啡厅<br />漫游店</h3>
+            <p class="card-detail">上海市虹口区星光路 88 号<br />星屿文创园 A 座 2F</p>
+            <span class="card-tag">可导航</span>
+          </article>
+          <article class="info-card info-card--transport">
+            <div class="card-icon">⌁</div>
+            <p class="card-label">怎么来</p>
+            <h3>地铁 3 号线<br />虹口足球场站</h3>
+            <p class="card-detail">2 号出口 · 步行约 8 分钟<br />公交 21 / 139 路可达</p>
+            <span class="card-tag">交通方便</span>
+          </article>
+          <article class="info-card info-card--hours">
+            <div class="card-icon">◷</div>
+            <p class="card-label">营业时间</p>
+            <h3>10:00 — 21:00</h3>
+            <p class="card-detail">活动日：2024.06.15（周六）<br />最后入场：20:00</p>
+            <span class="card-tag">请按批次到店</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section batches-section reveal" id="batches">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ENTRY SCHEDULE</p>
+            <h2>入场批次</h2>
+          </div>
+          <p class="section-note">点击卡片，查看<br />对应批次的小提醒。</p>
+        </div>
+        <div class="batch-list">
+          <button class="batch-card is-open" type="button" aria-expanded="true">
+            <span class="batch-number">01</span>
+            <span class="batch-time">10:00 <small>—</small> 13:00</span>
+            <span class="batch-status status-open">尚有余量</span>
+            <span class="batch-arrow">⌄</span>
+            <span class="batch-detail">建议提前 15 分钟到店签到，凭确认信息入场。<b>容量：30 人</b></span>
+          </button>
+          <button class="batch-card" type="button" aria-expanded="false">
+            <span class="batch-number">02</span>
+            <span class="batch-time">13:30 <small>—</small> 16:30</span>
+            <span class="batch-status status-few">即将满员</span>
+            <span class="batch-arrow">⌄</span>
+            <span class="batch-detail">建议提前 15 分钟到店签到，凭确认信息入场。<b>容量：30 人</b></span>
+          </button>
+          <button class="batch-card" type="button" aria-expanded="false">
+            <span class="batch-number">03</span>
+            <span class="batch-time">17:00 <small>—</small> 20:00</span>
+            <span class="batch-status status-full">名额已满</span>
+            <span class="batch-arrow">⌄</span>
+            <span class="batch-detail">建议提前 15 分钟到店签到，凭确认信息入场。<b>容量：30 人</b></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="teaser reveal" id="goods">
+        <div class="teaser-stars" aria-hidden="true">✦　✧　✦</div>
+        <p class="eyebrow">COMING SOON</p>
+        <h2>商品 &amp; 周边</h2>
+        <p>饮品与赠品的秘密，正在准备中……<br />下次见面时，再和你分享。</p>
+        <span class="teaser-paw" aria-hidden="true">🐾</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>到店小提醒</strong>
+        <p>请保管好个人物品，文明参与活动。现场如有疑问，欢迎随时向工作人员咨询。</p>
+      </div>
+      <span class="footer-mark">made with <b>♥</b> &amp; coffee</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
